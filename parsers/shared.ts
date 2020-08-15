@@ -1,6 +1,4 @@
-/// <reference path="../typings/node/node.d.ts"/>
 /// <reference path="../typings/lodash/lodash.d.ts"/>
-/// <reference path="../typings/bennu/bennu.d.ts"/>
 
 import * as _ from 'lodash';
 import { parse, lang, text } from 'bennu';

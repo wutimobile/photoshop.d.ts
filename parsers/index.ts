@@ -1,5 +1,3 @@
-/// <reference path="../typings/node/node.d.ts"/>
-/// <reference path="../typings/bennu/bennu.d.ts"/>
 /// <reference path="./shared.ts"/>
 /// <reference path="./types.ts"/>
 

@@ -115,6 +115,7 @@ dependencies and test it by calling:
 
 ```shell
 npm install && npm test
+npm run convert
 ```
 
 ## Notes
