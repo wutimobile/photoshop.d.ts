@@ -1,6 +1,5 @@
 /// <reference path="./shared.ts"/>
 /// <reference path="../contract.d.ts"/>
-/// <reference path="../typings/lodash/lodash.d.ts"/>
 
 /**
  * Parses the 2nd chapter of the Photoshop JavaScript reference into all

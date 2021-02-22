@@ -1,5 +1,3 @@
-/// <reference path="../typings/lodash/lodash.d.ts"/>
-
 const _ = require('lodash');
 const wrap = require('wordwrap');
 

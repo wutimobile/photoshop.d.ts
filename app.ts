@@ -1,4 +1,3 @@
-/// <reference path="./typings/lodash/lodash.d.ts"/>
 /// <reference path="./parsers/index.ts"/>
 /// <reference path="./renderers/index.ts"/>
 

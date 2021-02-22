@@ -1,6 +1,5 @@
 /// <reference path="./shared.ts"/>
 /// <reference path="../contract.d.ts"/>
-/// <reference path="../typings/lodash/lodash.d.ts"/>
 
 /**
  * Parses the chapter on Scripting constants from the Photoshop javascript
