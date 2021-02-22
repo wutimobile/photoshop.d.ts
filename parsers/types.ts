@@ -19,7 +19,7 @@ import { manyTill, upper, firstBefore, inBraces, inBrackets
  */
 export const sanitizeDocs = (docstring) => {
     return _.filter(
-          _.foldl(
+          _.reduce(
             [ /Adobe Photoshop (CC|CS6)[\r\n ]*JavaScript Scripting Reference[^0-9]*[0-9]*/g
             , /Method Parameter type Returns What it does( \(Continued\)|)/g
             , /Property Value type What it is( \(Continued\)|)/g

@@ -12,7 +12,7 @@ import { renderDocstring, strRepeat, tabSize, lines } from './shared';
  */
 const permutate = <T>(xs:T[][]):any[] => {
     const ts   = _.head(xs) || [];
-    const rest = _.rest(xs);
+    const rest = _.tail(xs);
 
     return rest.length == 0
         ? [ts]
@@ -32,7 +32,7 @@ const getMethodPermutations = method =>
             _.map(ts, t => [k, t])
         ))
     )
-    .map(xs => _.map(xs, x => _.object([x[0]], [x[1]])))
+    .map(xs => _.map(xs, x => _.zipObject([x[0]], [x[1]])))
     .map(xs => _.flatten(xs, true))
     .map(xs => _.reduce(xs, (acc, value) => _.merge(acc, value), {}))
     .value()
